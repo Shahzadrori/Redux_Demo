@@ -9,8 +9,8 @@ const App =() =>{
   return(
    <>
    <Provider store={store}>
-     <Container />
-     <Hook />
+      {/* <Hook /> */}
+      <Container />
      </Provider>
    </>
   )

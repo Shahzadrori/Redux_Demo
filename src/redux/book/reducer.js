@@ -6,7 +6,7 @@ export const foodreducer =(state=foodstate,action)=>{
         case BUY_CAKE:
             return {
                 ...state,
-                numcake : state.numcake - 1
+                numcake : state.numcake - action.payload
             }
     
         default : return state;
